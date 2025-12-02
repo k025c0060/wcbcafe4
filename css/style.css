@@ -75,77 +75,34 @@ img {
     color: #0bc;
 }
 
-/*HOME*/
-.cover-home {
-    background-image: url(../images/cover-home-s.webp);
-}
-.about {
-    max-width: 736px;
-    padding: 0 1.5rem;
-    margin: 3rem auto 4rem;
-}
-.about p {
-    margin-bottom: 3rem;
-}
-/*NEWS*/
-.cover-news {
-    background-image: url(../images/cover-news-s.webp);
+/*CONTACT*/
+.cover-contact {
+    background-image: url(../images/cover-contact-s.webp);
 }
 
-/*記事部分*/
-.post {
-    margin-bottom: 3rem;
+/*店舗情報*/
+.location {
+    margin-bottom: 3.5rem;
 }
-.post-title {
-    font-weight: normal;
-    margin-bottom: 1.25rem;
-}
-.post-info {
-    display: flex;
-    gap: 1rem;
+.location-info {
     margin-bottom: 2rem;
 }
-.post-cat {
-    display: flex;
-    gap: .5rem;
-    list-style: none;
+.location-info .info {
+    padding: 0;
 }
-.post-cat a {
-    color: #432;
+
+/*お問い合わせ*/
+.email {
+    max-width: 916px;
     background-color: #faf7f0;
-    border-radius: 8px;
-    font-size: .875rem;
-    padding: .5rem .75rem;
-}
-.post-cat a:hover {
-    background-color: #c9c2bc;
-}
-.post-date {
-    font-size: .875rem;
-}
-.post-thumbnail {
-    border-radius: 16px;
-    margin-bottom: 1.5rem;
-}
-.post p {
-    margin-bottom: 1.5rem;
-    line-height: 2;
+    border-radius: 48px;
+    padding: 1.5rem 2.5rem 2.5rem;
+    margin: 0 auto 2rem;
 }
 
-/*ボタン*/
-.btn {
-    display: inline-block;
-    font-size: 1.5rem;
-    background-color: #0bd;
-    color: #fff;
-    border-radius: 8px;
-    padding: .75rem 1.5rem;
-    transition: .5s;
+email p {
+    margin: 1rem 0 2rem;
 }
-.btn:hover {
-    translate: 10px;
-}
-
 
 /* ヘッダー */
 .page-header {
@@ -208,6 +165,25 @@ img {
     padding: 2rem 0;
     margin-top: 6rem;
     color: #fff;
+}
+
+/* ボタン */
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: #0090aa;
+}
+
+/*iframe*/
+iframe {
+    width: 100%;
 }
 
 /*デスクトップ版*/
