@@ -227,6 +227,10 @@ iframe {
     .cover-news {
         background-image: url(../images/cover-news-l.webp);
     }
+    /*CONTACT*/
+    .cover-contact {
+        background-image: url(../images/cover-contact-l.webp);
+    }
     .news-contents {
         display: flex;
         justify-content: space-between;
