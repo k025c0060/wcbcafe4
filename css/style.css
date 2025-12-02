@@ -186,6 +186,20 @@ iframe {
     width: 100%;
 }
 
+/*SNS*/
+.sns-item {
+    margin-bottom: 2rem;
+}
+.sns-item .heading-medium{
+    margin-bottom: .5rem;
+}
+.sns-youtube {
+    aspect-ratio: 16/9;
+}
+.sns-youtube iframe {
+    height: 100%;
+}
+
 /*デスクトップ版*/
 @media (min-width: 800px) {
     /*見出し*/
@@ -227,10 +241,6 @@ iframe {
     .cover-news {
         background-image: url(../images/cover-news-l.webp);
     }
-    /*CONTACT*/
-    .cover-contact {
-        background-image: url(../images/cover-contact-l.webp);
-    }
     .news-contents {
         display: flex;
         justify-content: space-between;
@@ -250,6 +260,37 @@ iframe {
     .sidebar .heading-medium {
         line-height: 1;
         margin-bottom: 1rem;
+    }
+
+    
+    /*CONTACT*/
+    .cover-contact {
+        background-image: url(../images/cover-contact-l.webp);
+    }
+    .location {
+        display: flex;
+        gap: 2rem;
+    }
+    .location-info {
+        width: 32%;
+    }
+    .location-info .info th {
+        padding-left: 2rem;
+    }
+    .location-map {
+        width: 64%;
+    }
+    .email {
+        margin-bottom: 4rem;
+    }
+    .sns {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        margin-bottom: 0;
+    }
+    .sns-item {
+        flex: 1;
     }
 
     /*フッター*/
